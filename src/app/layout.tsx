@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import MouseFollow from "../../components/main/MouseFollow";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -26,9 +27,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} bg-[#030014] bg-gradient-to-br from-[#030014] from-50% to-[#1a1134] leading-relaxed text-slate-400 antialiased selection:bg-[#7a92f0] selection:text-indigo-950 min-h-screen overscroll-none\``}
       >
-        {children}
+      <div>
+          {children}
+          <div className="mouse-follow-mobile md:hidden absolute bottom-0 -right-16"></div>
+          <MouseFollow />
+      </div>
       </body>
     </html>
   );
