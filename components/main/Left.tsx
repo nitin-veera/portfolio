@@ -13,9 +13,13 @@ const Left = () => {
                     <div className="font-medium tracking-tight text-slate-200 sm:text-xl text-nowrap mt-4">
                         Math and Computer Science @ UCLA
                     </div>
-                <div className="mt-2 leading-normal whitespace-pre">
+                <div className="hidden md:block mt-2 leading-normal whitespace-pre">
                     Previously @ Grindr | Seeking Full Time Positions
                 </div>
+                <div className="block md:hidden mt-2 leading-normal whitespace-pre">
+                    Prev @ Grindr <br/>Seeking Full Time Positions
+                </div>
+
                 {/*<div className="lg:mr-[70px] mt-4 md:mt-8 leading-relaxed">*/}
                 {/*    <div className="mb-4">*/}
                 {/*        to*/}
