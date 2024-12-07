@@ -14,10 +14,10 @@ const Left = () => {
                         Math and Computer Science @ UCLA
                     </div>
                 <div className="hidden md:block mt-2 leading-normal whitespace-pre">
-                    Previously @ Grindr | Seeking Full-Time Positions
+                    Previously @ Grindr | Seeking Full-Time Roles
                 </div>
                 <div className="block md:hidden mt-2 leading-normal whitespace-pre">
-                    Prev @ Grindr <br/>Seeking Full-Time Positions
+                    Prev @ Grindr <br/>Seeking Full-Time Roles
                 </div>
 
                 {/*<div className="lg:mr-[70px] mt-4 md:mt-8 leading-relaxed">*/}
