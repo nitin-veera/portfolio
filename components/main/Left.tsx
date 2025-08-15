@@ -11,10 +11,10 @@ const Left = () => {
                     Nitin Veeraperumal
                 </div>
                     <div className="font-medium tracking-tight text-slate-200 sm:text-xl text-nowrap mt-4">
-                        Math and Computer Science @ UCLA
+                        Software Engineer @ Amazon
                     </div>
                 <div className="hidden md:block mt-2 leading-normal whitespace-pre">
-                    Previously SWE @ Grindr | Seeking Full-Time Roles
+                    Math and Computer Science @ UCLA
                 </div>
                 <div className="block md:hidden mt-2 leading-normal whitespace-pre">
                     Prev SWE @ Grindr <br/>Seeking Full-Time Roles
